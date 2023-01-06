@@ -14,6 +14,17 @@
     border: 0;
     padding: 18px 35px;
 }
+.btn-contact{
+    height: 64px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    background:#FFFFFF;
+    border: 10px;
+    padding: 13px 18px;
+    margin-left: 50px;
+}
 
 /* header and navigation title */
 .nav-title {
