@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -173,11 +174,49 @@ section {
 .resume .description {
     color: #757575;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.contact a {
+    text-decoration: none;
 }
